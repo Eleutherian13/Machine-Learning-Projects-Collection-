@@ -46,6 +46,7 @@ MLprojects/
 ## 🚀 Projects
 
 ### 1. 🪨 Rock vs Mine Prediction
+
 <div>
 
 ![Status](https://img.shields.io/badge/Status-Complete%20✅-success?style=flat-square)
@@ -57,6 +58,7 @@ MLprojects/
 A binary classification project using sonar signal data to distinguish between rocks and mines.
 
 **Details:**
+
 - **Dataset:** Sonar(signal) Dataset
 - **Problem Type:** Binary Classification
 - **Features:** 60 numeric features (sonar signal measurements)
@@ -65,6 +67,7 @@ A binary classification project using sonar signal data to distinguish between r
 - **Model:** Trained and serialized as `model.joblib`
 
 **Key Learnings:**
+
 - Data preprocessing and exploratory data analysis (EDA)
 - Feature scaling and normalization
 - Handling binary classification problems
@@ -72,6 +75,7 @@ A binary classification project using sonar signal data to distinguish between r
 - Model serialization for production use
 
 **How to Use:**
+
 ```python
 import joblib
 import pandas as pd
@@ -90,14 +94,14 @@ predictions = model.predict(data)
 
 <div align="center">
 
-| Category | Tools |
-|----------|-------|
-| 🐍 **Language** | ![Python](https://img.shields.io/badge/Python-3.7+-3776ab?style=flat-square&logo=python&logoColor=white) |
-| 📊 **ML Framework** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
-| 📓 **Notebooks** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white) |
-| 🔢 **Data Science** | ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
-| 📈 **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-85C1D9?style=flat-square) |
-| 💾 **Serialization** | ![joblib](https://img.shields.io/badge/joblib-FF6B9D?style=flat-square) |
+| Category             | Tools                                                                                                                                                                                                |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🐍 **Language**      | ![Python](https://img.shields.io/badge/Python-3.7+-3776ab?style=flat-square&logo=python&logoColor=white)                                                                                             |
+| 📊 **ML Framework**  | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)                                                                               |
+| 📓 **Notebooks**     | ![Jupyter](https://img.shields.io/badge/Jupyter-F37726?style=flat-square&logo=jupyter&logoColor=white)                                                                                               |
+| 🔢 **Data Science**  | ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
+| 📈 **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) ![Seaborn](https://img.shields.io/badge/Seaborn-85C1D9?style=flat-square)                                            |
+| 💾 **Serialization** | ![joblib](https://img.shields.io/badge/joblib-FF6B9D?style=flat-square)                                                                                                                              |
 
 </div>
 
@@ -136,6 +140,7 @@ For each project, I follow this structured approach:
 ## 🔄 Getting Started
 
 ### Prerequisites
+
 ```bash
 Python 3.7+
 pip (Python package manager)
@@ -144,17 +149,20 @@ pip (Python package manager)
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Eleutherian13/Machine-Learning-Projects-Collection-.git
 cd MLprojects
 ```
 
 2. Install required packages:
+
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter joblib
 ```
 
 3. Launch Jupyter Notebook:
+
 ```bash
 jupyter notebook
 ```
@@ -165,15 +173,15 @@ jupyter notebook
 
 <div align="center">
 
-| Aspect | Status |
-|--------|--------|
-| 🧹 Clean, well-documented code | ✅ |
-| 📊 Comprehensive data analysis and visualization | ✅ |
-| 🎯 Proper train/test split and cross-validation | ✅ |
-| 📉 Meaningful evaluation metrics | ✅ |
-| 🚀 Production-ready trained models | ✅ |
-| 📚 Clear README or documentation | ✅ |
-| 🔄 Git commits tracking development | ✅ |
+| Aspect                                           | Status |
+| ------------------------------------------------ | ------ |
+| 🧹 Clean, well-documented code                   | ✅     |
+| 📊 Comprehensive data analysis and visualization | ✅     |
+| 🎯 Proper train/test split and cross-validation  | ✅     |
+| 📉 Meaningful evaluation metrics                 | ✅     |
+| 🚀 Production-ready trained models               | ✅     |
+| 📚 Clear README or documentation                 | ✅     |
+| 🔄 Git commits tracking development              | ✅     |
 
 </div>
 
@@ -222,6 +230,7 @@ Phase 3: Deployment & APIs (PLANNED)
 ## 📝 Project Details & Metrics
 
 A detailed analysis for each project will include:
+
 - Dataset characteristics (size, features, target distribution)
 - Data quality and preprocessing steps
 - Model performance across different algorithms
@@ -232,6 +241,7 @@ A detailed analysis for each project will include:
 ## 🤝 Contributing
 
 This is a personal learning repository. However, suggestions and insights are welcome through:
+
 - Issue discussions
 - Pull requests with improvements
 - Code reviews and feedback
